@@ -1,0 +1,28 @@
+{
+  "name": "famousbirthdays",
+  "version": "1.0.2",
+  "description": "Wrapper around grabbing and parsing famousbirthdays.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpbberry/famousbirthdays.git"
+  },
+  "keywords": [
+    "famousbirthdays",
+    "birthdays",
+    "wrapper",
+    "famous"
+  ],
+  "author": "jpbberry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpbberry/famousbirthdays/issues"
+  },
+  "dependencies": {
+    "node-html-parser": "^1.1.15"
+  },
+  "homepage": "https://github.com/jpbberry/famousbirthdays#readme"
+}
