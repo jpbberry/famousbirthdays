@@ -42,9 +42,11 @@ async function getBirthdays(url) {
             .map((x) => x.trim());
 
           birthdays.push({
-            name,
+            name: name.replace("&#039;", "'"),
             age,
-            occupation: occupation.innerText.replace("&amp;", "&"),
+            occupation: occupation.innerText
+              .replace("&amp;", "&")
+              .replace("&#039;", "'"),
             link,
           });
         });
